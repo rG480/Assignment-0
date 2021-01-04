@@ -3,8 +3,9 @@ class MySolution {
     if (num == 1)
       return num;
     else
+      console.log(num)
       return num + this.countDownSum(num - 1)
-
+    
   }
 }
 
